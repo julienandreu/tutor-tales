@@ -4,7 +4,6 @@ import million from "million/compiler";
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  runtime:"experimental-edge",
 };
 
 const millionConfig = {

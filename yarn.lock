@@ -3110,7 +3110,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:14.1.0":
+"next@npm:^14.1.0":
   version: 14.1.0
   resolution: "next@npm:14.1.0"
   dependencies:
@@ -4275,7 +4275,7 @@ __metadata:
     eslint: "npm:^8.56.0"
     eslint-config-next: "npm:14.1.0"
     million: "npm:^3.0.3"
-    next: "npm:14.1.0"
+    next: "npm:^14.1.0"
     postcss: "npm:^8.4.35"
     postcss-import: "npm:^16.0.0"
     postcss-nesting: "npm:^12.0.2"
