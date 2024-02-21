@@ -1,5 +1,9 @@
 export const config = { path: '/hello' };
 
-const hello = () => new Response('Hello world');
+function hello() {
+  console.log('Hello called');
+
+  return new Response('Hello world');
+}
 
 export default hello;
