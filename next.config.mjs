@@ -4,6 +4,10 @@ import million from "million/compiler";
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  env: {
+    GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
+    GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
+  },
 };
 
 const millionConfig = {
