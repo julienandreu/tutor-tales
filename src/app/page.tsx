@@ -10,7 +10,9 @@ function Home() {
       <p className="text-lg text-center">
         Welcome to your Next.js + Tailwind CSS app.
       </p>
+      <button onClick={() => signIn()}>Sign in</button>
       <button onClick={() => signIn('google')}>Sign in with google</button>
+      <button onClick={() => signIn('azure-ad')}>Sign in with microsoft</button>
       <pre>{JSON.stringify(session, null, 2)}</pre>
       <button onClick={() => signOut()}>Sign out</button>
     </div>
